@@ -1,0 +1,5 @@
+# Host
+com.instana.plugin.host:
+  tags:
+    - 'poc'
+    - 'instana' 
