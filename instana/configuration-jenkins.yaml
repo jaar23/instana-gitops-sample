@@ -1,0 +1,4 @@
+# Jenkins
+com.instana.plugin.jenkins:
+  user: ''     #default is 'user'
+  password: '' #default is 'user'
