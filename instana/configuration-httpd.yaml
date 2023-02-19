@@ -1,12 +1,12 @@
 # Apache Httpd
-#com.instana.plugin.httpd:
-#  tracing:
+com.instana.plugin.httpd:
+  tracing:
 #    # Enabling tracing will automatically download the HTTPd Tracing module and
 #    # load it in your Apache configuration file. You will need to manually restart
 #    # Apache HTTP Server unless you specify a restart script in notificationScript
 #    # or enable autoRestart. Disabling tracing will not remove the HTTPd Tracing module.
 #    # It will only remove the tracing module config from the Apache configuration file.
-#    enabled: false
+    enabled: true
 #    # Pins the HTTPd Tracing module to download and install to a specific version.
 #    # This can be used to rollback to previous versions of the module or to test
 #    # beta versions (when asked to do so). Expects the version to be given as
@@ -20,4 +20,4 @@
 #    # Apache HTTP Server to load the updated HTTPd Tracing module into memory.
 #    # If you specify a notificationScript, then the sensor will ignore autoRestart setting
 #    # unless the execution of.notificationScript failed.
-#    autoRestart: false
+    autoRestart: true
